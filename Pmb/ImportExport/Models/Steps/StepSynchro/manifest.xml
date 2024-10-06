@@ -1,0 +1,22 @@
+<!--
+****************************************************************************************
+� 2002-2012 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: manifest.xml,v 1.6 2024/07/26 12:49:56 rtigero Exp $
+-->
+
+<manifest>
+	<namespace>Pmb\ImportExport\Models\Steps\StepSynchro\StepSynchro</namespace>
+	<type>StepSynchro</type>
+	<author>
+		<name>Equipe DEV</name>
+		<organisation>PMB Services</organisation>
+	</author>
+	<created_date>2024-06-12</created_date>
+	<version>1.0</version>
+	<default_language>fr_FR</default_language>
+	<settings>
+		<setting name="source" value="" type="source" required="true"></setting>
+		<setting name="storageMethod" type="select" value="" controller='Steps' callback="storageMethods" required="true"></setting>
+	</settings>
+</manifest>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- messages localisés en français pour PMB
+****************************************************************************************
+© 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: fr_FR.xml,v 1.4 2024/07/18 14:08:40 rtigero Exp $ -->
+<XMLlist>
+    <entry code="name">FTP</entry>
+    <entry code="host">Hôte</entry>
+    <entry code="login">Identifiant</entry>
+    <entry code="password">Mot de passe</entry>
+    <entry code="pasv">Mode passif</entry>
+    <entry code="filePath">Chemin du répertoire</entry>
+    <entry code="fileName">Nom du fichier</entry>
+    <entry code="port">Port</entry>
+    <entry code="testConnection">Tester la connexion</entry>
+    <entry code="testConnectionSuccess">Connexion FTP réussie</entry>
+    <entry code="testConnectionFailed">Échec de la connexion FTP</entry>
+    <entry code="showFTPContent">Afficher le contenu du répertoire</entry>
+    <entry code="showFTPContentFailed">Échec de la récupération du contenu du répertoire</entry>
+    <entry code="rights">Permissions</entry>
+    <entry code="size">Taille</entry>
+    <entry code="date">Date de modification</entry>
+    <entry code="fileName">Nom</entry>
+</XMLlist>

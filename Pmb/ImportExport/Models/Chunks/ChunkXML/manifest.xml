@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<!--
+****************************************************************************************
+© 2002-2012 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: manifest.xml,v 1.9 2024/08/02 08:44:10 dbellamy Exp $
+-->
+
+<manifest>
+	<namespace>Pmb\ImportExport\Models\Chunks\ChunkXML\ChunkXML</namespace>
+	<type>ChunkXML</type>
+	<author>
+		<name>Equipe DEV</name>
+		<organisation>PMB Services</organisation>
+	</author>
+	<created_date>2024-06-12</created_date>
+	<version>1.0</version>
+	<default_language>fr_FR</default_language>
+    <format>xml</format>
+    <rdf_transformer>Pmb\ImportExport\Models\RDFTransformers\RDFTransformerXML\RDFTransformerXML</rdf_transformer>
+	<settings>
+		<setting name="rootElement" type="text" value="" required="false"></setting>
+		<setting name="entitiesElements" type="text" value="" multiple="1" required="true"></setting>
+	</settings>
+	<rdf_transformer>Pmb\ImportExport\Models\RDFTransformers\RDFTransformerXML\RDFTransformerXML</rdf_transformer>
+</manifest>

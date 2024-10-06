@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- messages localisés en français pour PMB
+****************************************************************************************
+© 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: fr_FR.xml,v 1.2 2024/07/16 13:38:26 dgoron Exp $ -->
+<XMLlist>
+    <entry code="StepSynchro">Synchronisation</entry>
+    <entry code="source">Source</entry>
+    <entry code="storageMethod">Méthode de stockage</entry>
+    <entry code="storageMethodWarehouse">Entrepôt</entry>
+    <entry code="storageMethodTemporaryFile">Fichier temporaire</entry>
+</XMLlist>

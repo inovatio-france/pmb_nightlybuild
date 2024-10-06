@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<!--
+****************************************************************************************
+© 2002-2012 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: manifest.xml,v 1.6 2024/08/08 13:05:00 pmallambic Exp $
+-->
+
+<manifest>
+	<namespace>Pmb\ImportExport\Models\Transformers\TransformerPMB\TransformerPMB</namespace>
+	<name>pmb</name>
+	<author>
+		<name>Equipe DEV</name>
+		<organisation>PMB Services</organisation>
+	</author>
+	<created_date>2024-06-12</created_date>
+	<version>1.0</version>
+	<default_language>fr_FR</default_language>
+	<settings>
+		<setting name="converterFunction" type="select" value="" controller='Transformers' callback="pmbFunctions" required="true"></setting>
+		<setting name="outFormat" type="select" value="" controller='Chunks' callback="getChunksSelectorOptions" required="true"></setting>
+	</settings>
+	<compatibility>
+		<chunk>Pmb\ImportExport\Models\Chunks\ChunkXML\ChunkXML</chunk>
+		<chunk>Pmb\ImportExport\Models\Chunks\ChunkCSV\ChunkCSV</chunk>
+		<chunk>Pmb\ImportExport\Models\Chunks\ChunkRIS\ChunkRIS</chunk>
+		<chunk>Pmb\ImportExport\Models\Chunks\ChunkEndnote\ChunkEndnote</chunk>
+	</compatibility>
+</manifest>

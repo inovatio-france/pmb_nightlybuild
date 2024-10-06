@@ -1,0 +1,5 @@
+<div id="profiles-import">
+    <loader></loader>
+    <edit v-if="action == 'add' || action == 'edit'" :profile="profile" :entities-types="entitiesTypes"></edit>
+	<list v-else :list="list"></list>
+</div>
