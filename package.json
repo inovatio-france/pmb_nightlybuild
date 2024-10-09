@@ -6,7 +6,7 @@
   "contributors": [],
   "dependencies": {
     "@tinymce/tinymce-vue": "^3.2.8",
-    "chart.js": "^3.7.1",
+    "chart.js": "^3.9.1",
     "regenerator-runtime": "^0.13.11",
     "splitpanes": "^2.4.1",
     "tinymce": "^6.3.1",
