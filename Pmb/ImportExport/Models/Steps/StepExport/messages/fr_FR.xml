@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- messages localisés en français pour PMB
+****************************************************************************************
+© 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: fr_FR.xml,v 1.1 2024/07/11 12:10:37 dgoron Exp $ -->
+<XMLlist>
+    <entry code="StepExport">Export</entry>
+</XMLlist>

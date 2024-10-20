@@ -1,0 +1,102 @@
+/* ---------------------------------------------------------------------------*/
+/*                                Import & Export                             */
+/* ---------------------------------------------------------------------------*/
+
+
+body.import_export h1, .import_export h1 {
+	background:#edd43a;
+	background: -moz-linear-gradient(top, #d7c44c 1%, #edd43a 35%, #dfc525 100%);
+	background: -webkit-linear-gradient(top, #d7c44c 1%,#edd43a 35%,#dfc525 100%); 
+	color: #ffffff;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom: 15px;
+}
+
+body.import_export h2, body.import_export h3, .import_export h2, .import_export h3 {
+	color: #edd43a;
+}
+
+body.import_export #conteneur #menu li a:hover, .import_export #conteneur #menu li a:hover  {
+	background:#edd43a; 	
+	background: -moz-linear-gradient(top, #d7c44c 1%, #edd43a 35%, #dfc525 100%); 	
+	background: -webkit-linear-gradient(top, #d7c44c 1%,#edd43a 35%,#dfc525 100%); 
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #edd43a;
+	color: #ffffff;
+}
+
+body.import_export .hmenu span.selected a, .import_export .hmenu span.selected a{
+	background:#edd43a; 	
+	background: -moz-linear-gradient(top, #d7c44c 1%, #edd43a 35%, #dfc525 100%); 	
+	background: -webkit-linear-gradient(top, #d7c44c 1%,#edd43a 35%,#dfc525 100%); 
+	background-position: left bottom;
+	background-color: #edd43a;
+	color: #ffffff;
+}
+
+body.import_export table th, .import_export table th{
+	background-repeat: repeat-x;
+	background:#edd43a; 	
+	background: -moz-linear-gradient(top, #d7c44c 1%, #edd43a 35%, #dfc525 100%); 	
+	background: -webkit-linear-gradient(top, #d7c44c 1%,#edd43a 35%,#dfc525 100%); 
+	background-position: left bottom;
+	background-color: #edd43a;
+	color: #ffffff;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom: 15px;
+}
+
+body.import_export table th h3, .import_export table th h3  {
+	color: #ffffff;
+}
+
+body.import_export table tr.surbrillance, .import_export .sortable tr:hover, .import_export table tr.surbrillance, .import_export .sortable tr:hover{
+	background:#edd43a; 	
+	background: -moz-linear-gradient(top, #d7c44c 1%, #edd43a 35%, #dfc525 100%); 	
+	background: -webkit-linear-gradient(top, #d7c44c 1%,#edd43a 35%,#dfc525 100%); 
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #dfc525;
+	color: #ffffff;
+}
+
+body.import_export input, body.import_export select, body.import_export textarea, .import_export input, .import_export select, .import_export textarea {
+	-moz-box-shadow: 1px 1px 1px #dfc525 inset;
+	-o-box-shadow: 1px 1px 1px #dfc525 inset;
+	-webkit-box-shadow: 1px 1px 1px #dfc525 inset;
+	box-shadow: 1px 1px 1px #dfc525 inset;
+}
+
+body.import_export .saisie-contenu, body.import_export .astuce,  .import_export .saisie-contenu, .import_export .astuce{
+	background-repeat: repeat-x;
+	background:#edd43a; 	
+	background: -moz-linear-gradient(top, #d7c44c 1%, #edd43a 35%, #dfc525 100%); 	
+	background: -webkit-linear-gradient(top, #d7c44c 1%,#edd43a 35%,#dfc525 100%); 
+	background-position: left bottom;
+	background-color: #edd43a;
+}
+
+body.import_export #content_onglet_perio span.onglet-perio-selected a, .import_export #content_onglet_perio span.onglet-perio-selected a{
+	background:#edd43a; 	
+	background: -moz-linear-gradient(top, #d7c44c 1%, #edd43a 35%, #dfc525 100%); 	
+	background: -webkit-linear-gradient(top, #d7c44c 1%,#edd43a 35%,#dfc525 100%); 
+	background-position: left bottom;
+	background-color: #edd43a;
+	color: #ffffff;
+}
+
+.import_export .saisie-5emr, .import_export .saisie-10emr, .import_export .saisie-15emr, .import_export .saisie-20emr, .import_export .saisie-30emr, .import_export .saisie-50emr, .import_export .saisie-80emr {
+	background-color: #edd43a;
+	color: #ffffff;
+	-moz-box-shadow: 1px 1px 10px #edd43a inset;
+	-o-box-shadow: 1px 1px 10px #edd43a inset;
+	-webkit-box-shadow: 1px 1px 10px #edd43a inset;
+	box-shadow: 1px 1px 10px #edd43a inset;
+}

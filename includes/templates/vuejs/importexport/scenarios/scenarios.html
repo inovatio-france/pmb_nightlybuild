@@ -1,0 +1,6 @@
+<div id="scenarios">
+    <loader></loader>
+    <edit v-if="action == 'add' || action == 'edit'" :scenario="scenario" :sources-types="sourcesTypes" :steps-types="stepsTypes"></edit>
+    <execution v-else-if="action == 'execute'" :scenario="scenario" :sources-types="sourcesTypes"></execution>
+	<list v-else :list="list"></list>
+</div>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<!--
+****************************************************************************************
+© 2002-2012 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: manifest.xml,v 1.1 2024/08/01 08:48:35 dgoron Exp $
+-->
+
+<manifest>
+	<namespace>Pmb\ImportExport\Models\Chunks\ChunkRIS\ChunkRIS</namespace>
+	<type>ChunkRIS</type>
+	<author>
+		<name>Equipe DEV</name>
+		<organisation>PMB Services</organisation>
+	</author>
+	<created_date>2024-06-12</created_date>
+	<version>1.0</version>
+	<default_language>fr_FR</default_language>
+    <format>ris</format>
+    <settings>
+		<setting name="firstElement" type="text" value="TY" required="true"></setting>
+	</settings>
+    <rdf_transformer>Pmb\ImportExport\Models\RDFTransformers\RDFTransformerRIS\RDFTransformerRIS</rdf_transformer>
+</manifest>

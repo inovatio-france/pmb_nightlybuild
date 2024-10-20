@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* +--------------------------------------------------------------------------+
+// 2017 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+// +-------------------------------------------------+
+// $Id: set-import_export-color.css,v 1.1 2024/07/05 07:12:51 dgoron Exp $ */
+/*------------------------------------------------------------------------------------------*/
+/* Color :
+base :#edd43a
+hover :#51a8ea
+active/focus :#318fd9
+*/
+.uk-navbar-nav li#navbar-import_export a:after,
+.import_export .hmenu.uk-tab>*:hover>a{
+	border-bottom-color:#edd43a;
+}
+li#navbar-import_export.current,
+.import_export input[type="checkbox"]:checked,
+.import_export input[type="checkbox"]:indeterminate,
+.import_export input[type="radio"]:checked,
+.import_export input[type="checkbox"]:checked:focus,
+.import_export input[type="checkbox"]:indeterminate:focus,
+.import_export input[type="radio"]:checked:focus,
+.import_export div#extra2 span.uk-icon,
+.import_export div#extra2 .notification.ui-active {
+	background-color:#edd43a;
+}
+.import_export input[type="text"]:focus,
+.import_export input[type="date"]:focus,
+.import_export select:focus,
+.import_export textarea:focus,
+.import_export input[type="checkbox"]:focus,
+.import_export input[type="radio"]:focus,
+.import_export select:focus,
+.import_export.claro.pure .dijitButtonHover .dijitButtonNode,
+.import_export.claro.pure .dijitDropDownButtonHover .dijitButtonNode,
+.import_export.claro.pure .dijitComboButton .dijitButtonNodeHover,
+.import_export.claro.pure .dijitComboButton .dijitDownArrowButtonHover,
+.import_export.claro.pure .dijitToggleButtonHover .dijitButtonNode,
+.import_export.claro.pure .dijitTextBoxHover,
+.import_export #contenu .uk-button-default:focus,
+.import_export #contenu .uk-button-default:hover,
+.import_export .hmenu.uk-tab>.uk-active>a,
+.import_export  iframe {
+	border-color: #edd43a;
+}
+.uk-navbar-nav li#navbar-import_export a:hover,
+.import_export h1.section-title i,
+.import_export h1.section-sub-title ,
+.import_export .uk-link,
+.import_export a,
+.import_export .uk-link:hover,
+.import_export a:hover,
+.import_export h3:not(.section-sub-title),
+.import_export .article-title i,
+.import_export #menu .uk-nav>li>a i,
+.import_export #menu .uk-nav>li.uk-active>a,
+.import_export #menu .uk-nav>li>a i,
+.import_export #menu .uk-nav>li.uk-active>a,
+.import_export #menu .uk-nav>li>a:hover ,
+.import_export .h2-like i,
+.import_export #extra span.uk-icon:hover,
+.import_export #extra i:hover,
+.import_export #navbar .dashboard:hover,
+.pure .import_export .uk-tab > * > a:hover,
+.pure .import_export .uk-tab > * > a:focus,
+.import_export .categ_browser a,
+.import_export .categ_browser a:hover,
+.import_export .categ_browser a:focus,
+.import_export .categ_browser a:active,
+.import_export .hmenu.uk-tab>.uk-active>a{
+	color:#edd43a;
+}
+.import_export #contenu input.wyr-input[type='file']:focus{
+	outline-color: #edd43a;
+}
+.import_export .stat-child .uk-table th{
+	color: #edd43a;
+	font-weight: 500;
+}
+.import_export #menu ul.uk-nav{
+	border-top: solid 2px #edd43a;
+}
+.import_export #menu>h3 .uk-icon{
+	background: #edd43a;
+}
+.import_export.claro.pure .dijitMenu .dijitMenuItemHover td,
+.import_export.claro.pure .dijitMenu .dijitMenuItemSelected td,
+.import_export.claro.pure .dijitMenuItemHover,
+.import_export.claro.pure .dijitComboBoxMenu .dijitMenuItemHover,
+.import_export.claro.pure .dijitMenuItemSelected,
+.import_export.claro.pure .dojoDndItemOver {
+    background-color:rgba(70, 157, 225, 0.3);
+    border-color:#edd43a;
+    background-image: none;
+}
+.import_export form ,
+.import_export .row.bkg-grey{
+	border-color:#99c3e4;
+}
+.import_export input.wyr-input[type='submit'],
+.import_export .uk-button,
+.import_export .search_cancel>input,
+.import_export.claro.pure .dijitButton .dijitButtonNode,
+.import_export.claro.pure .dijitDropDownButton .dijitButtonNode,
+.import_export.claro.pure .dijitComboButton .dijitButtonNode,
+.import_export.claro.pure .dijitToggleButton .dijitButtonNode{
+	background-color: #edd43a;
+
+}
+.import_export input.wyr-input[type='submit']:hover,
+.import_export .uk-button:hover,
+.import_export .search_cancel>input:hover,
+.import_export.claro.pure .dijitButton .dijitButtonNode:hover,
+.import_export.claro.pure .dijitDropDownButton .dijitButtonNode:hover,
+.import_export.claro.pure .dijitComboButton .dijitButtonNode:hover,
+.import_export.claro.pure .dijitToggleButton .dijitButtonNode:hover {
+	background-color: #edd43a;
+}
+.import_export input.wyr-input[type='submit']:focus,
+.import_export input.wyr-input[type='submit']:active,
+.import_export .uk-button:focus,
+.import_export .uk-button:active,
+.import_export .search_cancel>input:focus,
+.import_export .search_cancel>input:active,
+.import_export.claro.pure .dijitButton .dijitButtonNode:focus,
+.import_export.claro.pure .dijitDropDownButton .dijitButtonNode:focus,
+.import_export.claro.pure .dijitComboButton .dijitButtonNode:focus,
+.import_export.claro.pure .dijitToggleButton .dijitButtonNode:focus,
+.import_export.claro.pure .dijitButton .dijitButtonNode:active,
+.import_export.claro.pure .dijitDropDownButton .dijitButtonNode:active,
+.import_export.claro.pure .dijitComboButton .dijitButtonNode:active,
+.import_export.claro.pure .dijitToggleButton .dijitButtonNode:active {
+	background-color: #318fd9;
+}
+.import_export .uk-label,
+.import_export .uk-label:hover {
+	background: #edd43a;
+	color:#fff;
+}
+.import_export  .search-result-item.notice-child[style*='block'],
+.import_export  .child[style*='block'],
+.import_export  div[startopen="Yes"] {
+	border-color: #99c3e4;
+}
+.import_export select:focus{
+	outline-color: #318fd9;
+}
+/*
+*Aut color
+*/
+.import_export .saisie-5emr,
+.import_export .saisie-10emr,
+.import_export .saisie-15emr,
+.import_export .saisie-20emr,
+.import_export .saisie-30emr,
+.import_export .saisie-50emr,
+.import_export .saisie-80emr.pure,
+.import_export input[class^='saisie'][class*='emr']:hover,
+.pure .import_export input[class^='saisie'][class*='emr']:active,
+.pure .import_export input[class^='saisie'][class*='emr']:focus{
+  background: #85c1f0;
+  color:#000;
+}
+/*
+*Retours
+*/
+
+.import_export .form-retour-expl  {
+  background-color: rgb(229, 248, 255);
+  border: solid 1px #abd6ff;
+}
+
+.import_export .form-retour-expl .uk-form-label.wyr-form-label {
+  color: #595959;
+}
+
+.import_export #contenu .form-retour-expl input.wyr-input {
+  border: solid 1px #abd6ff;
+}
+
+/* ========================================================================
+inside menu //  button
+===========================================================================  */
+
+
+.pure.import_export .hmenu .wui-button.uk-active {
+    background: #edd43a;
+    border-color: #edd43a;
+}
+.pure.import_export .hmenu .wui-button.uk-active:hover  a,
+.pure.import_export .hmenu .wui-button:hover a,
+.pure.import_export .hmenu .wui-button.uk-active:hover ,
+.pure.import_export .hmenu .wui-button:hover,
+.pure.import_export .hmenu .wui-button.uk-active:active ,
+.pure.import_export .hmenu .wui-button:active
+.pure.import_export .hmenu .wui-button.uk-active:focus ,
+.pure.import_export .hmenu .wui-button:focus,
+.import_export #empr-name,
+.pure.import_export .hmenu .wui-button  {
+    border-color: #edd43a;
+}
+
+.import_export input[type='submit'],
+.import_export input[type='button'],
+.import_export .bouton{
+	background-color: #edd43a;
+}
+.import_export input[type='submit']:hover,
+.import_export input[type='button']:hover,
+.import_export .bouton:hover{
+	background-color: #51a8ea;
+}
+
+.import_export input[type='submit']:focus,
+.import_export input[type='button']:focus,
+.import_export .bouton:focus,
+.import_export input[type='submit']:active,
+.import_export input[type='button']:active,
+.import_export .bouton:active{
+	background-color: #318fd9;
+
+}
